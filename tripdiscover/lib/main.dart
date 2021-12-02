@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tripdiscover/pages/welcome_page.dart';
+import 'package:tripdiscover/pages/main_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Trip Discover',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const WelcomePage(),
+      home: const MainPage(),
     );
   }
 }
