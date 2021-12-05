@@ -5,9 +5,10 @@ const BackgroundImageSelector: React.FC = (): ReactElement => {
     <div
       style={{
         backgroundImage: 'url("/backgrounds/darkblue70.png")',
-        width: "400px",
+        minWidth: "400px",
         height: "400px",
       }}
+      className="w-auto"
     ></div>
   );
 };
