@@ -1,5 +1,4 @@
-import React, { ReactElement } from "react";
-
+import React, { ReactElement, useEffect } from "react";
 import {
   Title,
   Accessorize,
@@ -7,8 +6,13 @@ import {
   RandomButton,
   DownloadButton,
 } from "components";
+import store from "store";
+import { SET_BLUE_50 } from "actions";
 
 const App: React.FC = (): ReactElement => {
+  useEffect(() => {
+    store.dispatch(SET_BLUE_50);
+  }, []);
   return (
     <div className="flex flex-col md:h-screen justify-center items-center">
       <div className="space-y-10">
