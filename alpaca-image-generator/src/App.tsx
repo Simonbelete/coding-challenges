@@ -1,18 +1,13 @@
 import React, { ReactElement, useEffect } from "react";
-import {
-  Title,
-  Accessorize,
-  BackgroundImageSelector,
-  RandomButton,
-  DownloadButton,
-} from "components";
-import { AlpacaImageContainer } from "container";
+import { Title, RandomButton, DownloadButton } from "components";
+import { AlpacaImageContainer, AccessorizeContainer } from "container";
 import store from "store";
-import { SET_BLUE_50 } from "actions";
+import { SET_BLUE_50, SET_EYES } from "actions";
 
 const App: React.FC = (): ReactElement => {
   // useEffect(() => {
   //   store.dispatch(SET_BLUE_50);
+  //   store.dispatch(SET_EYES);
   // }, []);
   return (
     <div className="flex flex-col md:h-screen justify-center items-center">
@@ -26,7 +21,7 @@ const App: React.FC = (): ReactElement => {
               <DownloadButton />
             </div>
           </div>
-          <Accessorize />
+          <AccessorizeContainer />
         </div>
       </div>
     </div>

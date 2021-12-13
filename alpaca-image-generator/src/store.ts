@@ -1,7 +1,7 @@
 import { createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { BackgroundImageReducer } from "reducers";
+import CommonReducer from "reducers";
 
-const store = createStore(BackgroundImageReducer, composeWithDevTools());
+const store = createStore(CommonReducer, composeWithDevTools());
 
 export default store;
