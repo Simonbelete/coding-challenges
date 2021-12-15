@@ -1,10 +1,11 @@
-import React, { ReactElement, useEffect } from "react";
-import { Title, RandomButton, DownloadButton } from "components";
+import React, { ReactElement } from "react";
+import { Title } from "components";
 import {
   AlpacaImageContainer,
   AccessorizeContainer,
   StyleListContainer,
   DownloadButtonContainer,
+  RandomButtonContainer,
 } from "container";
 
 const App: React.FC = (): ReactElement => {
@@ -16,7 +17,7 @@ const App: React.FC = (): ReactElement => {
           <div className="flex flex-col gap-5">
             <AlpacaImageContainer />
             <div className="flex flex-row justify-between gap-5">
-              <RandomButton />
+              <RandomButtonContainer />
               <DownloadButtonContainer />
             </div>
           </div>
