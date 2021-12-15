@@ -118,131 +118,161 @@ export const SET_NECK = {
  */
 export const SET_STYLE_HAIR_DEFAULT = {
   type: ActionTypes.STYLE_SET_HAIR_DEFAULT,
-  payload: { style: "HAIR_DEFAULT", hair: "hair/default.png" },
+  payload: { style: "HAIR_DEFAULT", hair: "/hair/default.png" },
 };
 export const SET_STYLE_HAIR_BANG = {
   type: ActionTypes.STYLE_SET_HAIR_BANG,
-  payload: { style: "HAIR_BANG", hair: "hari/bang.png" },
+  payload: { style: "HAIR_BANG", hair: "/hair/bang.png" },
 };
 export const SET_STYLE_HAIR_CURLS = {
   type: ActionTypes.STYLE_SET_HAIR_CURLS,
-  payload: { style: "HAIR_CURLS", hair: "hair/curls.png" },
+  payload: { style: "HAIR_CURLS", hair: "/hair/curls.png" },
 };
 export const SET_STYLE_HAIR_ELEGANT = {
   type: ActionTypes.STYLE_SET_HAIR_ELEGANT,
-  payload: { style: "HAIR_ELEGANT", hair: "hair/elegant.png" },
+  payload: { style: "HAIR_ELEGANT", hair: "/hair/elegant.png" },
 };
 export const SET_STYLE_HAIR_FANCY = {
   type: ActionTypes.STYLE_SET_HAIR_FANCY,
-  payload: { style: "HAIR_FANCY", hair: "hair/fancy.png" },
+  payload: { style: "HAIR_FANCY", hair: "/hair/fancy.png" },
 };
 export const SET_STYLE_HAIR_QUIFF = {
   type: ActionTypes.STYLE_SET_HAIR_QUIFF,
-  payload: { style: "HAIR_QUIFF", hair: "hair/quiff.png" },
+  payload: { style: "HAIR_QUIFF", hair: "/hair/quiff.png" },
 };
 export const SET_STYLE_HAIR_SHORT = {
   type: ActionTypes.STYLE_SET_HAIR_SHORT,
-  payload: { style: "HAIR_SHORT", hair: "hair/short.png" },
+  payload: { style: "HAIR_SHORT", hair: "/hair/short.png" },
 };
 
 // Ears Style
 export const SET_STYLE_EARS_DEFAULT = {
   type: ActionTypes.STYLE_SET_EARS_DEFAULT,
-  payload: { style: "EARS_DEFAULT", ear: "ears/default.png" },
+  payload: { style: "EARS_DEFAULT", ear: "/ears/default.png" },
 };
 export const SET_STYLE_EARS_TILT_BACKWARD = {
   type: ActionTypes.STYLE_SET_EARS_TILT_BACKWARD,
-  payload: { style: "EARS_TILT_BACKWARD", ear: "ears/tilt-backward.png" },
+  payload: { style: "EARS_TILT_BACKWARD", ear: "/ears/tilt-backward.png" },
 };
 export const SET_STYLE_EARS_TILT_FORWARD = {
   type: ActionTypes.STYLE_SET_EARS_TILT_FORWARD,
-  payload: { style: "EARS_TILT_FORWARD", ear: "ears/tilt-forward.png" },
+  payload: { style: "EARS_TILT_FORWARD", ear: "/ears/tilt-forward.png" },
 };
 
 // Eyes style
 export const SET_STYLE_EYES_DEFAULT = {
   type: ActionTypes.STYLE_SET_EYES_DEFAULT,
-  payload: { style: "EYES_DEFAULT", eye: "eyes/default.png" },
+  payload: { style: "EYES_DEFAULT", eye: "/eyes/default.png" },
 };
 export const SET_STYLE_EYES_ANGRY = {
   type: ActionTypes.STYLE_SET_EYES_ANGRY,
-  payload: { style: "EYES_ANGRY", eye: "eyes/angry.png" },
+  payload: { style: "EYES_ANGRY", eye: "/eyes/angry.png" },
 };
 export const SET_STYLE_EYES_NAUGHTY = {
   type: ActionTypes.STYLE_SET_EYES_NAUGHTY,
-  payload: { style: "EYES_NAUGHTY", eye: "eyes/naughty.png" },
+  payload: { style: "EYES_NAUGHTY", eye: "/eyes/naughty.png" },
 };
 export const SET_STYLE_EYES_PANDA = {
   type: ActionTypes.STYLE_SET_EYES_PANDA,
-  payload: { style: "EYES_PANDA", eye: "eyes/panda.png" },
+  payload: { style: "EYES_PANDA", eye: "/eyes/panda.png" },
 };
 export const SET_STYLE_EYES_SMART = {
   type: ActionTypes.STYLE_SET_EYES_SMART,
-  payload: { style: "EYES_SMART", eye: "eyes/smart.png" },
+  payload: { style: "EYES_SMART", eye: "/eyes/smart.png" },
 };
 export const SET_STYLE_EYES_STAR = {
   type: ActionTypes.STYLE_SET_EYES_STAR,
-  payload: { style: "EYES_STAR", eye: "eyes/star.png" },
+  payload: { style: "EYES_STAR", eye: "/eyes/star.png" },
 };
 
 // Mouth style
 export const SET_STYLE_MOUTH_DEFAULT = {
   type: ActionTypes.STYLE_SET_MOUTH_DEFAULT,
-  payload: { style: "MOUTH_DEFAULT", mouth: "mouth/default.png" },
+  payload: { style: "MOUTH_DEFAULT", mouth: "/mouth/default.png" },
 };
 export const SET_STYLE_MOUTH_ASTONISHED = {
   type: ActionTypes.STYLE_SET_MOUTH_ASTONISHED,
-  payload: { style: "MOUTH_ASTONISHED", mouth: "mouth/astonished.png" },
+  payload: { style: "MOUTH_ASTONISHED", mouth: "/mouth/astonished.png" },
 };
 export const SET_STYLE_MOUTH_EATING = {
   type: ActionTypes.STYLE_SET_MOUTH_EATING,
-  payload: { style: "MOUTH_EATING", mouth: "mouth/eating.png" },
+  payload: { style: "MOUTH_EATING", mouth: "/mouth/eating.png" },
 };
 export const SET_STYLE_MOUTH_LAUGH = {
   type: ActionTypes.STYLE_SET_MOUTH_LAUGH,
-  payload: { style: "MOUTH_LAUGH", mouth: "mouth/laugh.png" },
+  payload: { style: "MOUTH_LAUGH", mouth: "/mouth/laugh.png" },
 };
 export const SET_STYLE_MOUTH_TONGUE = {
   type: ActionTypes.STYLE_SET_MOUTH_TONGUE,
-  payload: { style: "MOUTH_TONGUE", mouth: "mouth/tongue.png" },
+  payload: { style: "MOUTH_TONGUE", mouth: "/mouth/tongue.png" },
 };
 
 // Neck Style
 export const SET_STYLE_NECK_DEFAULT = {
   type: ActionTypes.STYLE_SET_NECK_DEFAULT,
-  payload: { style: "NECK_DEFAULT", neck: "neck/default.png" },
+  payload: { style: "NECK_DEFAULT", neck: "/neck/default.png" },
 };
 export const SET_STYLE_NECK_BEND_BACKWARD = {
   type: ActionTypes.STYLE_SET_NECK_BEND_BACKWARD,
-  payload: { style: "NECK_BEND_BACKWARD", neck: "neck/bend-backward.png" },
+  payload: { style: "NECK_BEND_BACKWARD", neck: "/neck/bend-backward.png" },
 };
 export const SET_STYLE_NECK_BEND_FORWARD = {
   type: ActionTypes.STYLE_SET_NECK_BEND_FORWARD,
-  payload: { style: "NECK_BEND_FORWARD", neck: "neck/bend-forward.png" },
+  payload: { style: "NECK_BEND_FORWARD", neck: "/neck/bend-forward.png" },
 };
 export const SET_STYLE_NECK_THICK = {
   type: ActionTypes.STYLE_SET_NECK_THICK,
-  payload: { style: "NECK_THICK", neck: "neck/thick.png" },
+  payload: { style: "NECK_THICK", neck: "/neck/thick.png" },
 };
 
 // Leg Style
 export const SET_STYLE_LEG_DEFAULT = {
   type: ActionTypes.STYLE_SET_LEG_DEFAULT,
-  payload: { style: "LEG_DEFAULT", neck: "leg/default.png" },
+  payload: { style: "LEG_DEFAULT", leg: "/leg/default.png" },
 };
 export const SET_STYLE_LEG_COOKIE = {
   type: ActionTypes.STYLE_SET_LEG_COOKIE,
-  payload: { style: "LEG_COOKIE", neck: "leg/cookie.png" },
+  payload: { style: "LEG_COOKIE", leg: "/leg/cookie.png" },
 };
 export const SET_STYLE_LEG_GAME_CONSOLE = {
   type: ActionTypes.STYLE_SET_LEG_GAME_CONSOLE,
-  payload: { style: "LEG_GAME_CONSOLE", neck: "leg/game-console.png" },
+  payload: { style: "LEG_GAME_CONSOLE", leg: "/leg/game-console.png" },
 };
 export const SET_STYLE_LEG_TILT_BACKWARD = {
   type: ActionTypes.STYLE_SET_LEG_TILT_BACKWARD,
-  payload: { style: "LEG_TILT_BACKWARD", neck: "leg/tilt-backward.png" },
+  payload: { style: "LEG_TILT_BACKWARD", leg: "/leg/tilt-backward.png" },
 };
 export const SET_STYLE_LEG_TILT_FORWARD = {
   type: ActionTypes.STYLE_SET_LEG_TILT_FORWARD,
-  payload: { style: "LEG_TILT_FORWARD", neck: "leg/tilt-forward.png" },
+  payload: { style: "LEG_TILT_FORWARD", leg: "/leg/tilt-forward.png" },
+};
+
+// Accessories
+export const SET_STYLE_ACCESSORIES_HEADPHONE = {
+  type: ActionTypes.STYLE_SET_ACCESSORIES_HEADPHONE,
+  payload: {
+    style: "ACCESSORIES_HEADPHONE",
+    accessorie: "/accessories/headphone.png",
+  },
+};
+export const SET_STYLE_ACCESSORIES_EARINGS = {
+  type: ActionTypes.STYLE_SET_ACCESSORIES_EARINGS,
+  payload: {
+    style: "ACCESSORIES_EARINGS",
+    accessorie: "/accessories/earings.png",
+  },
+};
+export const SET_STYLE_ACCESSORIES_FLOWER = {
+  type: ActionTypes.STYLE_SET_ACCESSORIES_FLOWER,
+  payload: {
+    style: "ACCESSORIES_FLOWER",
+    accessorie: "/accessories/flower.png",
+  },
+};
+export const SET_STYLE_ACCESSORIES_GLASSES = {
+  type: ActionTypes.STYLE_SET_ACCESSORIES_GLASSES,
+  payload: {
+    style: "ACCESSORIES_GLASSES",
+    accessorie: "/accessories/glasses.png",
+  },
 };

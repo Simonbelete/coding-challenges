@@ -3,12 +3,12 @@ const INITIAL_STATE = {
   selected: "HAIR",
   style: "HAIR_DEFAULT",
   hair: "/hair/default.png",
-  ear: "ears/default.png",
-  eye: "eyes/default.png",
-  mouth: "mouth/default.png",
-  neck: "neck/default.png",
-  leg: "leg/default.png",
-  accessorie: "accessories/headphone.png",
+  ear: "/ears/default.png",
+  eye: "/eyes/default.png",
+  mouth: "/mouth/default.png",
+  neck: "/neck/default.png",
+  leg: "/leg/default.png",
+  accessorie: "/accessories/headphone.png",
 };
 
 const CommonReducer = (state = INITIAL_STATE, action: any) => {
