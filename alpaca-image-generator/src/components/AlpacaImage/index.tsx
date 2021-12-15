@@ -24,12 +24,11 @@ const AlpacaImage: React.FC<{
       id="alpaca-image-container"
       style={{
         backgroundImage: `url("${imageUrl}")`,
-        minWidth: "400px",
         height: "400px",
         maxHeight: "400px",
-        maxWidth: "400px",
+        // maxWidth: "400px",
       }}
-      className="flex flex-col items-center justify-center"
+      className="flex flex-col items-center justify-center  lg:min-w-[400px] md:w-[400px] w-full"
     >
       <div className="w-4/5 flex items-center mt-2 justify-center h-full relative">
         <img
