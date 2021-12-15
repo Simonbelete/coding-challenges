@@ -1,6 +1,10 @@
 import React, { ReactElement, useEffect } from "react";
 import { Title, RandomButton, DownloadButton } from "components";
-import { AlpacaImageContainer, AccessorizeContainer } from "container";
+import {
+  AlpacaImageContainer,
+  AccessorizeContainer,
+  StyleListContainer,
+} from "container";
 import store from "store";
 import { SET_BLUE_50, SET_EYES } from "actions";
 
@@ -21,7 +25,10 @@ const App: React.FC = (): ReactElement => {
               <DownloadButton />
             </div>
           </div>
-          <AccessorizeContainer />
+          <div className="flex flex-col gap-10">
+            <AccessorizeContainer />
+            <StyleListContainer />
+          </div>
         </div>
       </div>
     </div>

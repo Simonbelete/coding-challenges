@@ -6,3 +6,4 @@ export { default as RandomButton } from "./RandomButton";
 export { default as DownloadButton } from "./DownloadButton";
 export { default as SubTitle } from "./SubTitle";
 export { default as AlpacaImage } from "./AlpacaImage";
+export { default as StyleList } from "./StyleList";

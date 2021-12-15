@@ -117,5 +117,30 @@ export const SET_NECK = {
  * Accesorize Actions Style List
  */
 export const SET_STYLE_HAIR_DEFAULT = {
-  type: 
-}
+  type: ActionTypes.STYLE_SET_HAIR_DEFAULT,
+  payload: { style: "HAIR_DEFAULT" },
+};
+export const SET_STYLE_HAIR_BANG = {
+  type: ActionTypes.STYLE_SET_HAIR_BANG,
+  payload: { style: "HAIR_BANG" },
+};
+export const SET_STYLE_HAIR_CURLS = {
+  type: ActionTypes.STYLE_SET_HAIR_CURLS,
+  payload: { style: "HAIR_CURLS" },
+};
+export const SET_STYLE_HAIR_ELEGANT = {
+  type: ActionTypes.STYLE_SET_HAIR_ELEGANT,
+  payload: { style: "HAIR_ELEGANT" },
+};
+export const SET_STYLE_HAIR_FANCY = {
+  type: ActionTypes.STYLE_SET_HAIR_FANCY,
+  payload: { style: "HAIR_FANCY" },
+};
+export const SET_STYLE_HAIR_QUIFF = {
+  type: ActionTypes.STYLE_SET_HAIR_QUIFF,
+  payload: { style: "HAIR_QUIFF" },
+};
+export const SET_STYLE_HAIR_SHORT = {
+  type: ActionTypes.STYLE_SET_HAIR_SHORT,
+  payload: { style: "HAIR_SHORT" },
+};
