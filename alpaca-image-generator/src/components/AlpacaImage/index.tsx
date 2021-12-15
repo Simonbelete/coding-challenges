@@ -21,6 +21,7 @@ const AlpacaImage: React.FC<{
 }): ReactElement => {
   return (
     <div
+      id="alpaca-image-container"
       style={{
         backgroundImage: `url("${imageUrl}")`,
         minWidth: "400px",
