@@ -76,7 +76,6 @@ const RandomButtonContainer: React.FC = (): ReactElement => {
     return Math.floor(Math.random() * max);
   };
   const randomizeAlpacaImage = () => {
-    console.log("abc");
     store.dispatch(backgrounds[randomNumber(backgrounds.length)]);
     store.dispatch(hairs[randomNumber(hairs.length)]);
     store.dispatch(ears[randomNumber(ears.length)]);
