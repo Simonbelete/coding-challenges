@@ -1,0 +1,30 @@
+{
+  "name": "newedenfaces",
+  "version": "1.0.0",
+  "description": "Character voting app for EVE Online",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simonbelete/coding-challenges.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simonbelete/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/Simonbelete/coding-challenges#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
